@@ -26,6 +26,10 @@ body{
 	#fMenu{overflow: hidden;
 	}
 
+p{
+	font-size: 16px;
+}
+
 .pBlock{
 	width:7.142857%;
 	float:left;
@@ -79,12 +83,12 @@ body{
 	}
 
 .navbar-right{
-	margin-top: 30px;
+	margin-top: 35px;
 	color: #FFFFFF;
 }
 
 .nav-hd{
-	height: 250px;
+	height: 240px;
 	overflow: hidden;
 }
 
@@ -94,7 +98,7 @@ body{
 }
 
 .mainA{
-	margin-top: 20px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 }
 
@@ -125,6 +129,8 @@ body{
 	}
 
 .my-nav-button{
+	font-family: 'Cinzel', serif;
+	/*font-weight: 400;*/
 	display: block;
 	text-align: center;
 	background-color: transparent;
@@ -147,7 +153,7 @@ body{
 
 #se-nav{
 	margin-top: 12px;
-	border-top: 2px solid #000000;
+	/*border-top: 2px solid #000000;*/
 	border-bottom: 2px solid #000000;
 }
 
@@ -170,6 +176,15 @@ text-decoration:underline;
 	float: right;
 }
 
+.article_padding{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+h4{
+	font-size: 28px;
+}
+
 h4,h5,h6{
 	font-family: 'Cinzel', serif;
 	font-weight: 400;
@@ -183,6 +198,23 @@ h1,h2,h3{
 	color: #000000;
 	align:center;
 	font-weight: 700;
-	margin-top:10px; 
+	margin-top:20px; 
+	margin-bottom:16px; 
 	font-size: 32px;
+}
+
+
+footer{
+	margin-top: 60px;
+	align:center;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+@media(max-width: 767px){
+	#se-nav{
+	/*margin-top: 12px;*/
+	border-top: 2px solid #000000;
+	/*border-bottom: 2px solid #000000;*/
+}
 }
